@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="actionpackage.actionclass">
+        <methods>
+          <include name="timesheet1"/>
+          <include name="viewreq"/>
+          <include name="enterurl"/>
+          <include name="reqdetails"/>
+          <include name="Reports_visibility"/>
+          <include name="closetest"/>
+          <include name="loginteam"/>
+          <include name="newreq"/>
+          <include name="Request_deliverable"/>
+          <include name="feedback"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- actionpackage.actionclass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

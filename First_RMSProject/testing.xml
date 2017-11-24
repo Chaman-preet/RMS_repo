@@ -1,0 +1,75 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Test Suite" verbose="1">
+ <!--listeners>
+  <listener class-name="rmspackage.listener"/>
+   </listeners-->
+  <test name="Sample Test">
+     <classes>
+    <class name="actionpackage.actionclass">
+    <methods>
+    <!--include name="enterurl"></include-->
+    <include name="loginteam"></include>
+     <include name="newreq"></include>
+     <!--include name="viewreq"></include>
+     <include name="reqdetails"></include>
+     <include name="Request_deliverable"></include>
+     <include name="timesheet1"></include>
+     <include name="Reports_visibility"></include>
+     <include name="feedback"></include>
+     <include name="logout"></include>
+     <include name="closetest"></include-->
+    </methods>
+    </class> 
+   
+    <!--/classes>
+  </test>
+  <test name="Sample Test2">
+   <classes>
+    <class name="actionpackage.actionrequestor">
+    <methods>
+    <include name="enterurl"></include>
+     <include name="loginreq"></include>
+     <include name="newreq"></include>
+     <include name="viewreq"></include>
+     <include name="reqdetails"></include>
+     <include name="Request_deliverable"></include>
+     <include name="timesheet1"></include>
+     <include name="Reports_visibility"></include>
+     <include name="feedback"></include>
+     <include name="logout"></include>
+     <include name="closetest"></include>
+    </methods>
+    </class> 
+  <class name="actionpackage.actiongatekeeper">
+    <methods>
+    <include name="enterurl"></include>
+     <include name="logingate"></include>
+     <include name="newreq"></include>
+     <include name="viewreq"></include>
+     <include name="reqdetails"></include>
+     <include name="Request_deliverable"></include>
+     <include name="timesheet1"></include>
+     <include name="Reports_visibility"></include>
+     <include name="feedback"></include>
+     <include name="logout"></include>
+     <include name="closetest"></include>
+    </methods>
+    </class> 
+    <class name="actionpackage.actionanalyst">
+    <methods>
+    <include name="enterurl"></include>
+     <include name="loginanalyst"></include>
+     <include name="newreq"></include>
+     <include name="viewreq"></include>
+     <include name="reqdetails"></include>
+     <include name="Request_deliverable"></include>
+     <include name="timesheet1"></include>
+     <include name="Reports_visibility"></include>
+     <include name="feedback"></include>
+     <include name="logout"></include>
+     <include name="closetest"></include>
+    </methods>
+    </class--> 
+    </classes>
+  </test>
+</suite>
